@@ -1,0 +1,14 @@
+# Advanced Image Enhancer Dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Optional for additional features
+scikit-image>=0.21.0  # Advanced image processing
+matplotlib>=3.7.0     # Visualization and comparison
+imageio>=2.31.0       # Additional format support
+
+# Development
+pytest>=7.4.0
+black>=23.9.0
+mypy>=1.5.0
