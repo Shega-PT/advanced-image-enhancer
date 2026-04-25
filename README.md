@@ -24,7 +24,7 @@ A professional-grade image enhancement pipeline that intelligently improves visu
 
 1. **Clone the repository:**
 
-   git clone https://github.com/yourusername/advanced-image-enhancer.git
+   git clone https://github.com/Shega-PT/advanced-image-enhancer
    cd advanced-image-enhancer
 
    
