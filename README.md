@@ -209,7 +209,7 @@ We welcome contributions from developers, photographers, and image processing en
 Development Setup
 
 # Clone and setup
-git clone https://github.com/yourusername/advanced-image-enhancer.git
+git clone https://github.com/Shega-PT/advanced-image-enhancer.git
 cd advanced-image-enhancer
 
 # Install in development mode
