@@ -6,6 +6,9 @@ numpy>=1.24.0
 Pillow>=10.0.0         # EXIF orientation support
 PyYAML>=6.0            # YAML config profiles (pip install pyyaml)
 
+# GUI (requires system package: sudo apt-get install python3-tk)
+# tkinter is part of Python stdlib but needs python3-tk on Debian/Ubuntu
+
 # Development
 pytest>=7.4.0
 pytest-cov>=4.1.0
