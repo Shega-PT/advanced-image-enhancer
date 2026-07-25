@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "image-enhancer"
+version = "2.0.0"
+description = "Professional-grade image enhancement pipeline with GUI and CLI"
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python>=4.8.0",
+    "numpy>=1.24.0",
+    "Pillow>=10.0.0",
+]
+
+[project.scripts]
+image-enhancer = "image_enhancer.cli:main"
+image-enhancer-gui = "gui:main"
+
+[tool.setuptools.packages.find]
+include = ["image_enhancer*"]

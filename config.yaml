@@ -1,0 +1,66 @@
+# Advanced Image Enhancer V2 - Configuration Profiles
+# Usage: python image_enhancer.py --config config.yaml photo.jpg
+
+# Profile: Natural enhancement (default)
+natural:
+  mode: natural
+  target_size: [1920, 1080]
+  denoise_strength: 3.0
+  sharpening_strength: 1.2
+  contrast_boost: 1.1
+  saturation_boost: 1.1
+  fit_mode: stretch
+  preserve_original: true
+  output_format: null
+
+# Profile: Maximum sharpness for architecture/text
+sharp:
+  mode: sharp
+  target_size: [3840, 2160]
+  denoise_strength: 2.0
+  sharpening_strength: 1.5
+  contrast_boost: 1.2
+  saturation_boost: 1.0
+  fit_mode: crop
+
+# Profile: Vibrant colors for nature/travel
+vibrant:
+  mode: vibrant
+  target_size: [3840, 2160]
+  denoise_strength: 3.0
+  sharpening_strength: 1.3
+  contrast_boost: 1.3
+  saturation_boost: 1.4
+  auto_wb: true
+  fit_mode: stretch
+
+# Profile: Portrait with skin smoothing
+portrait:
+  mode: portrait
+  target_size: [1920, 1080]
+  denoise_strength: 4.0
+  sharpening_strength: 1.1
+  contrast_boost: 1.05
+  saturation_boost: 1.0
+  preserve_original: true
+
+# Profile: Landscape with depth
+landscape:
+  mode: landscape
+  target_size: [3840, 2160]
+  denoise_strength: 3.0
+  sharpening_strength: 1.4
+  contrast_boost: 1.2
+  saturation_boost: 1.2
+  low_light_correction: true
+
+# Profile: Batch processing (faster, 4 workers)
+batch_fast:
+  mode: natural
+  target_size: [1920, 1080]
+  denoise_strength: 2.0
+  sharpening_strength: 1.0
+  contrast_boost: 1.05
+  saturation_boost: 1.05
+  workers: 4
+  output_format: jpeg
